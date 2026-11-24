@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Arpan Purkait" />
+    <title>Arpan Purkait | Home</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Arpan Purkait home">AP<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span>
+      </button>
+      <nav id="main-nav" class="nav-links" aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="home-main">
+      <figure class="hero-art">
+        <img src="QC.png" alt="Quantum computer cryogenic system" />
+      </figure>
+      <section class="hero" aria-labelledby="intro-heading">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1 id="intro-heading">Arpan<br />Purkait.</h1>
+        <p class="intro">I build Quantum Computers. </p>
+        <div class="hero-actions">
+          <a class="button primary" href="experience.html">View my work <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="contact.html">Let's connect <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+
+      <aside class="hero-meta" aria-label="Profile summary">
+        <div class="availability"><span></span> Available for work</div>
+        <div class="meta-grid">
+          <div>
+            <span class="meta-label">Based in</span>
+            <strong>Kolkata, India</strong>
+          </div>
+          <div>
+            <span class="meta-label">Focus</span>
+            <strong>Research, Design &amp; Development</strong>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Arpan Purkait</span>
+      <a href="contact.html">Get in touch</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
